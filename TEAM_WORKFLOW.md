@@ -14,38 +14,24 @@ Dokumen ini mendeskripsikan cara kerja tim untuk update progress harian dan pros
 - Checkout branch pribadi: `git checkout team/{nama}`
 
 ## Tatacara Kirim Progress (Super Singkat)
-- Pastikan berada di branch pribadi: `git checkout team/{nama}`
-- Ambil update terbaru: `git pull`
-- Tambahkan semua perubahan: `git add .`
-- Buat commit dengan pesan jelas: `git commit -m "feat: deskripsi singkat"`
-- Push ke remote:
-  - Pertama kali: `git push -u origin team/{nama}`
-  - Update berikutnya: `git push`
-- Buat Pull Request ke `main` di GitHub: pilih `Compare & pull request`, base `main`, compare `team/{nama}`.
+- Untuk anggota non-programmer, gunakan GitHub Desktop:
+  - Buka GitHub Desktop dan pilih repository proyek
+  - Klik `Current branch` → pilih `team/{nama}`
+  - Klik `Fetch origin` lalu `Pull`
+  - Simpan perubahan di Unreal (Save All)
+  - Isi `Summary` singkat → klik `Commit`
+  - Klik `Push origin`
+  - Klik `Create Pull Request` (base `main`, compare `team/{nama}`)
 
-Contoh sekali jalan:
+Contoh sekali jalan (GitHub Desktop)
+- Current branch: `team/nauf`
+- Fetch/Pull → Commit → Push → Create Pull Request
 
-```
-git checkout team/nauf
-git pull
-git add .
-git commit -m "feat(level): update layout dojo"
-git push -u origin team/nauf
-```
+Jika branch belum ada di lokal (GitHub Desktop):
+- `Branch` → `New Branch` → ketik `team/{nama}` → `Create branch`
 
-Jika branch belum ada di lokal:
-
-```
-git fetch origin
-git checkout -t origin/team/{nama}
-```
-
-Sinkron dengan `main` sebelum PR (opsional tapi disarankan):
-
-```
-git fetch origin
-git merge origin/main
-```
+Sinkron dengan `main` sebelum PR (disarankan):
+- Di GitHub Desktop: `Branch` → `Update from main`
 
 ## Alur Upload Progress
 - Sinkronisasi awal: `git pull`

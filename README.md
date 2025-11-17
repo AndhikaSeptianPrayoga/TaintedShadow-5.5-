@@ -15,31 +15,18 @@ Proyek Unreal Engine 5.5 untuk game/experience "The Tainted Shadow".
   - Dibuat: `team/andhika`, `team/aris`, `team/nauf`, `team/raditya`, `team/radysena`, `team/irfan`.
 
 ## Tatacara Kirim Progress (Singkat)
-```
-# 1) Pindah ke branch pribadi
-git checkout team/{nama}
-
-# 2) Tarik update
-git pull
-
-# 3) Stage & commit perubahan
-git add .
-git commit -m "feat: deskripsi singkat"
-
-# 4) Push
-# Pertama kali
-git push -u origin team/{nama}
-# Berikutnya
-git push
-
-# 5) Buat Pull Request ke main di GitHub
-```
+Untuk anggota non-programmer, pakai langkah paling sederhana ini:
+- Buka aplikasi GitHub Desktop
+- Pilih `Repository` proyek ini
+- Pilih `Current branch` → `team/{nama}`
+- Klik `Fetch origin` lalu `Pull`
+- Simpan perubahan Anda di Unreal (Save All)
+- Di GitHub Desktop: isi `Summary` singkat → klik `Commit`
+- Klik `Push origin`
+- Klik `Create Pull Request` → target `main`
 
 Tips sinkronisasi sebelum PR:
-```
-git fetch origin
-git merge origin/main
-```
+- Di GitHub Desktop: `Branch` → `Update from main`
 
 ## Panduan Lengkap
 Lihat `TEAM_WORKFLOW.md` untuk detail alur, resolusi konflik, dan praktik terbaik aset Unreal.
