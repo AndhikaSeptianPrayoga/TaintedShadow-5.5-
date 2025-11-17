@@ -1,0 +1,774 @@
+{
+	"body":
+	{
+		"type": "m_med_nrw"
+	},
+	"face":
+	{
+		"freckles":
+		{
+			"option": "None",
+			"density": 0.5,
+			"saturation": 0.5,
+			"strength": 0.5,
+			"toneShift": 0.5
+		},
+		"accents":
+		{
+			"scalp":
+			{
+				"redness": 0,
+				"saturation": 0,
+				"lightness": 0
+			},
+			"forehead":
+			{
+				"redness": 0.066134810447692871,
+				"saturation": -0.051618516445159912,
+				"lightness": 0.16706621646881104
+			},
+			"nose":
+			{
+				"redness": 0,
+				"saturation": -0.20301562547683716,
+				"lightness": 0
+			},
+			"underEye":
+			{
+				"redness": 0,
+				"saturation": 0.16706621646881104,
+				"lightness": -0.1693718433380127
+			},
+			"cheeks":
+			{
+				"redness": 0,
+				"saturation": 0.082956790924072266,
+				"lightness": 0
+			},
+			"lips":
+			{
+				"redness": 0,
+				"saturation": -0.11999999731779099,
+				"lightness": 0.11999999731779099
+			},
+			"chin":
+			{
+				"redness": 0,
+				"saturation": 0,
+				"lightness": 0
+			},
+			"ears":
+			{
+				"redness": 0,
+				"saturation": 0,
+				"lightness": 0
+			}
+		},
+		"leftEye":
+		{
+			"iris":
+			{
+				"option": "002",
+				"color1UI":
+				{
+					"x": 0.823353111743927,
+					"y": 0.17666646838188171
+				},
+				"color1":
+				{
+					"r": 0.049706567078828812,
+					"g": 0.026241222396492958,
+					"b": 0.012286487966775894,
+					"a": 1
+				},
+				"color2UI":
+				{
+					"x": 0.82110762596130371,
+					"y": 0.20666646957397461
+				},
+				"color2":
+				{
+					"r": 0.056128490716218948,
+					"g": 0.029556833207607269,
+					"b": 0.013702082447707653,
+					"a": 1
+				},
+				"bUseRadialBlend": false,
+				"colorBalance": 0.43882974982261658,
+				"colorBalanceSmoothness": 0.47672867774963379,
+				"size": 0.52659571170806885,
+				"saturation": 0.66422873735427856,
+				"limbusDarkAmount": 0.40890952944755554
+			},
+			"sclera":
+			{
+				"tintUI":
+				{
+					"x": 0.67406469869042585,
+					"y": 0.54928262631098435
+				},
+				"tint":
+				{
+					"r": 0.98225057125091553,
+					"g": 0.86315721273422241,
+					"b": 0.7304607629776001,
+					"a": 1
+				},
+				"brightness": 0.50783455371856689,
+				"rotation": 0,
+				"vascularity": 0.61436164379119873,
+				"veinsRotation": 0
+			}
+		},
+		"rightEye":
+		{
+			"iris":
+			{
+				"option": "002",
+				"color1UI":
+				{
+					"x": 0.823353111743927,
+					"y": 0.17666646838188171
+				},
+				"color1":
+				{
+					"r": 0.049706567078828812,
+					"g": 0.026241222396492958,
+					"b": 0.012286487966775894,
+					"a": 1
+				},
+				"color2UI":
+				{
+					"x": 0.82110762596130371,
+					"y": 0.20666646957397461
+				},
+				"color2":
+				{
+					"r": 0.056128490716218948,
+					"g": 0.029556833207607269,
+					"b": 0.013702082447707653,
+					"a": 1
+				},
+				"bUseRadialBlend": false,
+				"colorBalance": 0.43882974982261658,
+				"colorBalanceSmoothness": 0.47672867774963379,
+				"size": 0.52659571170806885,
+				"saturation": 0.66422873735427856,
+				"limbusDarkAmount": 0.40890952944755554
+			},
+			"sclera":
+			{
+				"tintUI":
+				{
+					"x": 0.67406469869042585,
+					"y": 0.54928262631098435
+				},
+				"tint":
+				{
+					"r": 0.98225057125091553,
+					"g": 0.86315721273422241,
+					"b": 0.7304607629776001,
+					"a": 1
+				},
+				"brightness": 0.50783455371856689,
+				"rotation": 0,
+				"vascularity": 0.61436164379119873,
+				"veinsRotation": 0
+			}
+		},
+		"teeth":
+		{
+			"teethColorUI":
+			{
+				"x": 0.34999999403953552,
+				"y": 0.34999999403953552
+			},
+			"teethColor":
+			{
+				"r": 0.67954248189926147,
+				"g": 0.52099555730819702,
+				"b": 0.33716362714767456,
+				"a": 1
+			},
+			"gumColorUI":
+			{
+				"x": 0.34999999403953552,
+				"y": 0.34999999403953552
+			},
+			"gumColor":
+			{
+				"r": 0.39157247543334961,
+				"g": 0.078187420964241028,
+				"b": 0.064803265035152435,
+				"a": 1
+			},
+			"plaqueColorUI":
+			{
+				"x": 0.34999999403953552,
+				"y": 0.34999999403953552
+			},
+			"plaqueColor":
+			{
+				"r": 0.60382735729217529,
+				"g": 0.41788506507873535,
+				"b": 0.11443537473678589,
+				"a": 1
+			},
+			"plaqueAmount": 0.11999999731779099
+		},
+		"makeup":
+		{
+			"foundation":
+			{
+				"bApplyFoundation": true,
+				"color":
+				{
+					"r": 0.45078599452972412,
+					"g": 0.18447500467300415,
+					"b": 0.11443500220775604,
+					"a": 1
+				},
+				"intensity": 0.72651934623718262,
+				"roughness": 0.19662933051586151,
+				"concealer": 0
+			},
+			"eyes":
+			{
+				"option": "None",
+				"primaryColor":
+				{
+					"r": 0.1020829975605011,
+					"g": 0.17411699891090393,
+					"b": 0.25,
+					"a": 1
+				},
+				"secondaryColor":
+				{
+					"r": 0,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				},
+				"roughness": 0.5,
+				"transparency": 0,
+				"metalness": 0
+			},
+			"blusher":
+			{
+				"option": "None",
+				"color":
+				{
+					"r": 0.34509798884391785,
+					"g": 0,
+					"b": 0,
+					"a": 1
+				},
+				"intensity": 0.40000000596046448,
+				"roughness": 0.25
+			},
+			"lips":
+			{
+				"option": "None",
+				"color":
+				{
+					"r": 0.25520798563957214,
+					"g": 0.010634000413119793,
+					"b": 0.022097999230027199,
+					"a": 1
+				},
+				"roughness": 0.5,
+				"transparency": 0
+			}
+		}
+	},
+	"textureSynthesis":
+	{
+		"bSkinUnlocked": true,
+		"lowFrequency": 0,
+		"highFrequency": 0.21340000629425049,
+		"contrast": 0.5,
+		"skinToneUI":
+		{
+			"x": 0.47775441408157349,
+			"y": 0.351666659116745
+		},
+		"skinTone":
+		{
+			"r": 0.45641103386878967,
+			"g": 0.18782077729701996,
+			"b": 0.11697066575288773,
+			"a": 1
+		}
+	},
+	"grooms":
+	{
+		"hair":
+		{
+			"option": "SideSweptFringe",
+			"length": 1,
+			"bUseCustomProperties": true,
+			"melaninAndRedness":
+			{
+				"x": 0.91593831777572632,
+				"y": 0.04959411546587944
+			},
+			"roughness": 0.37000000476837158,
+			"whiteness": 0.30386897921562195,
+			"lightness": 0,
+			"presetOption": "None",
+			"bUseDyeColor": false,
+			"dyeColor":
+			{
+				"r": 0.32156899571418762,
+				"g": 0,
+				"b": 0.69019597768783569,
+				"a": 1
+			},
+			"bUseRegions": false,
+			"regionsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseRegionsColor": false,
+			"regionsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"regionsPresetOption": "None",
+			"bUseOmbre": false,
+			"ombreUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseOmbreColor": false,
+			"ombreColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"ombreShift": 0.5,
+			"ombreContrast": 0,
+			"ombreIntensity": 1,
+			"ombrePresetOption": "None",
+			"bUseHighlights": false,
+			"highlightsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseHighlightsColor": false,
+			"highlightsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"highlightsBlending": 0.5,
+			"highlightsIntensity": 0.5,
+			"highlightsVariation": 0,
+			"highlightsPresetOption": "None",
+			"eyebrowsShading": 1,
+			"eyebrowsMicroblading": 1,
+			"bUseMaskModulation": false,
+			"maskModulationOption": "None"
+		},
+		"eyebrows":
+		{
+			"option": "MediumScragglyEyebrows",
+			"length": 1,
+			"bUseCustomProperties": false,
+			"melaninAndRedness":
+			{
+				"x": 0.4347471296787262,
+				"y": 0
+			},
+			"roughness": 0.25,
+			"whiteness": 0,
+			"lightness": 0.5,
+			"presetOption": "None",
+			"bUseDyeColor": false,
+			"dyeColor":
+			{
+				"r": 0.32156899571418762,
+				"g": 0,
+				"b": 0.69019597768783569,
+				"a": 1
+			},
+			"bUseRegions": false,
+			"regionsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseRegionsColor": false,
+			"regionsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"regionsPresetOption": "None",
+			"bUseOmbre": false,
+			"ombreUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseOmbreColor": false,
+			"ombreColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"ombreShift": 0.5,
+			"ombreContrast": 0,
+			"ombreIntensity": 1,
+			"ombrePresetOption": "None",
+			"bUseHighlights": false,
+			"highlightsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseHighlightsColor": false,
+			"highlightsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"highlightsBlending": 0.5,
+			"highlightsIntensity": 0.5,
+			"highlightsVariation": 0,
+			"highlightsPresetOption": "None",
+			"eyebrowsShading": 1,
+			"eyebrowsMicroblading": 1,
+			"bUseMaskModulation": false,
+			"maskModulationOption": "None"
+		},
+		"eyelashes":
+		{
+			"option": "ShortSparse",
+			"length": 1,
+			"bUseCustomProperties": false,
+			"melaninAndRedness":
+			{
+				"x": 0.4347471296787262,
+				"y": 0
+			},
+			"roughness": 0.25,
+			"whiteness": 0,
+			"lightness": 0.5,
+			"presetOption": "None",
+			"bUseDyeColor": false,
+			"dyeColor":
+			{
+				"r": 0.32156899571418762,
+				"g": 0,
+				"b": 0.69019597768783569,
+				"a": 1
+			},
+			"bUseRegions": false,
+			"regionsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseRegionsColor": false,
+			"regionsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"regionsPresetOption": "None",
+			"bUseOmbre": false,
+			"ombreUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseOmbreColor": false,
+			"ombreColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"ombreShift": 0.5,
+			"ombreContrast": 0,
+			"ombreIntensity": 1,
+			"ombrePresetOption": "None",
+			"bUseHighlights": false,
+			"highlightsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseHighlightsColor": false,
+			"highlightsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"highlightsBlending": 0.5,
+			"highlightsIntensity": 0.5,
+			"highlightsVariation": 0,
+			"highlightsPresetOption": "None",
+			"eyebrowsShading": 1,
+			"eyebrowsMicroblading": 1,
+			"bUseMaskModulation": false,
+			"maskModulationOption": "None"
+		},
+		"beard":
+		{
+			"option": "ChinStrapGoatee",
+			"length": 1,
+			"bUseCustomProperties": false,
+			"melaninAndRedness":
+			{
+				"x": 0.65935355424880981,
+				"y": 0.20000000298023224
+			},
+			"roughness": 0.25,
+			"whiteness": 0,
+			"lightness": 0.5,
+			"presetOption": "None",
+			"bUseDyeColor": false,
+			"dyeColor":
+			{
+				"r": 0.32156899571418762,
+				"g": 0,
+				"b": 0.69019597768783569,
+				"a": 1
+			},
+			"bUseRegions": false,
+			"regionsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseRegionsColor": false,
+			"regionsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"regionsPresetOption": "None",
+			"bUseOmbre": false,
+			"ombreUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseOmbreColor": false,
+			"ombreColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"ombreShift": 0.5,
+			"ombreContrast": 0,
+			"ombreIntensity": 1,
+			"ombrePresetOption": "None",
+			"bUseHighlights": false,
+			"highlightsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseHighlightsColor": false,
+			"highlightsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"highlightsBlending": 0.5,
+			"highlightsIntensity": 0.5,
+			"highlightsVariation": 0,
+			"highlightsPresetOption": "None",
+			"eyebrowsShading": 1,
+			"eyebrowsMicroblading": 1,
+			"bUseMaskModulation": false,
+			"maskModulationOption": "None"
+		},
+		"mustache":
+		{
+			"option": "LongWavyMustache",
+			"length": 1,
+			"bUseCustomProperties": false,
+			"melaninAndRedness":
+			{
+				"x": 0.7927929162979126,
+				"y": 0.20000000298023224
+			},
+			"roughness": 0.5,
+			"whiteness": 0,
+			"lightness": 0.5,
+			"presetOption": "None",
+			"bUseDyeColor": false,
+			"dyeColor":
+			{
+				"r": 0.32156899571418762,
+				"g": 0,
+				"b": 0.69019597768783569,
+				"a": 1
+			},
+			"bUseRegions": false,
+			"regionsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseRegionsColor": false,
+			"regionsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"regionsPresetOption": "None",
+			"bUseOmbre": false,
+			"ombreUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseOmbreColor": false,
+			"ombreColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"ombreShift": 0.5,
+			"ombreContrast": 0,
+			"ombreIntensity": 1,
+			"ombrePresetOption": "None",
+			"bUseHighlights": false,
+			"highlightsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseHighlightsColor": false,
+			"highlightsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"highlightsBlending": 0.5,
+			"highlightsIntensity": 0.5,
+			"highlightsVariation": 0,
+			"highlightsPresetOption": "None",
+			"eyebrowsShading": 1,
+			"eyebrowsMicroblading": 1,
+			"bUseMaskModulation": false,
+			"maskModulationOption": "None"
+		},
+		"peachfuzz":
+		{
+			"option": "ThinPeachFuzz",
+			"length": 1,
+			"bUseCustomProperties": false,
+			"melaninAndRedness":
+			{
+				"x": 0.15999999642372131,
+				"y": 0
+			},
+			"roughness": 0.25,
+			"whiteness": 0,
+			"lightness": 0.5,
+			"presetOption": "None",
+			"bUseDyeColor": false,
+			"dyeColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"bUseRegions": false,
+			"regionsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseRegionsColor": false,
+			"regionsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"regionsPresetOption": "None",
+			"bUseOmbre": false,
+			"ombreUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseOmbreColor": false,
+			"ombreColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"ombreShift": 0.5,
+			"ombreContrast": 0,
+			"ombreIntensity": 1,
+			"ombrePresetOption": "None",
+			"bUseHighlights": false,
+			"highlightsUV":
+			{
+				"x": 0.28189998865127563,
+				"y": 0.25
+			},
+			"bUseHighlightsColor": false,
+			"highlightsColor":
+			{
+				"r": 1,
+				"g": 1,
+				"b": 1,
+				"a": 1
+			},
+			"highlightsBlending": 0.5,
+			"highlightsIntensity": 0.5,
+			"highlightsVariation": 0,
+			"highlightsPresetOption": "None",
+			"eyebrowsShading": 1,
+			"eyebrowsMicroblading": 1,
+			"bUseMaskModulation": false,
+			"maskModulationOption": "None"
+		}
+	}
+}

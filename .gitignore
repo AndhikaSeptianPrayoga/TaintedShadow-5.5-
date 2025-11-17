@@ -1,0 +1,26 @@
+# Unreal Engine
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# IDE & OS
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated project/IDE artifacts
+*.suo
+*.user
+*.opendb
+*.VC.db
+*.pdb
+*.obj
+*.sln
