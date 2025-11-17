@@ -13,6 +13,40 @@ Dokumen ini mendeskripsikan cara kerja tim untuk update progress harian dan pros
 - Aktifkan Git LFS: `git lfs install`
 - Checkout branch pribadi: `git checkout team/{nama}`
 
+## Tatacara Kirim Progress (Super Singkat)
+- Pastikan berada di branch pribadi: `git checkout team/{nama}`
+- Ambil update terbaru: `git pull`
+- Tambahkan semua perubahan: `git add .`
+- Buat commit dengan pesan jelas: `git commit -m "feat: deskripsi singkat"`
+- Push ke remote:
+  - Pertama kali: `git push -u origin team/{nama}`
+  - Update berikutnya: `git push`
+- Buat Pull Request ke `main` di GitHub: pilih `Compare & pull request`, base `main`, compare `team/{nama}`.
+
+Contoh sekali jalan:
+
+```
+git checkout team/nauf
+git pull
+git add .
+git commit -m "feat(level): update layout dojo"
+git push -u origin team/nauf
+```
+
+Jika branch belum ada di lokal:
+
+```
+git fetch origin
+git checkout -t origin/team/{nama}
+```
+
+Sinkron dengan `main` sebelum PR (opsional tapi disarankan):
+
+```
+git fetch origin
+git merge origin/main
+```
+
 ## Alur Upload Progress
 - Sinkronisasi awal: `git pull`
 - Lakukan perubahan di Unreal, pastikan folder yang dikecualikan tidak ikut ter-commit (`Saved/`, `Intermediate/`, dll sesuai `.gitignore`).
